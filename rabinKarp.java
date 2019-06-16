@@ -44,43 +44,6 @@ public class rabinKarp {
 		}
 	}
 	
-	/*
-	 * int search (string S, length N, substring T, length m, prime: p) 
-	 * TModp = 0
-	SubModp = 0 
-	powerOf10Modp = 1
-for j from m-1 downto 1
-SubModp = (SubModp + S[i] * powerOfTenModp) mod p 
-TModp = (TModp + T[i] * powerOfTenModp) mod p 
-powerOfTenModp = (powerOfTenModp * 10) mod p
-found = false
-for i from 0 to N - m
-if (SubModp = = TModp) for j from 0 to m-1
-if T[j] != S[i+j] break else
-if j == m-1 return i
-SubModp = (((SubModp*10- S[i]*10m + S[i + m])modp) + p)modp
-	 */
-	/*
-	void searchg(String S, String T, int p){
-		int TmodP = 0;
-		int Submodp = 0;
-		int powerOf10Modp = 1;
-		int m = T.length();
-		int n = S.length();
-		
-		
-		for( int j = m-1; j > 1; j--){
-			Submodp = ( Submodp + S.charAt(j) * powerOf10Modp) % p;
-			TmodP = (TmodP + T.charAt(j) * powerOf10Modp) % p;
-			powerOf10Modp = (powerOf10Modp * 10) % p;
-		}
-		found ==
-		
-		
-		
-	}
-	*/
-	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
